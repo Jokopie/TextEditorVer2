@@ -1,0 +1,23 @@
+.tiptap {
+    :first-child {
+      margin-top: 0px;
+    }
+  }
+  
+.character-count {
+    align-items: center;
+    color: gray;
+    display: flex;
+    font-size: 0.75rem;
+    gap: .5rem;
+    margin: 1.5rem;
+  
+    svg {
+      color: blue;
+    }
+  
+    &--warning,
+    &--warning svg {
+      color: red;
+    }
+}
